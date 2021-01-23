@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  margin: 60px auto 0 auto;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+
+}
+
+h3 {
+  color: #71c9ce;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+}
+
+hr {
+  border: dotted #eaf6f6 7px;
+  border-bottom: none;
+  width: 5%;
+  margin : 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  margin : 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+/*--------------------------------------Class--------------------------------------*/
+.top-container {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 150px;
+
+}
+
+.middle-container {
+  margin : 100px auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 10px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top : 35px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left : 250px;
+  bottom: 300px;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat",sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+
+.skill-row {
+  width: 50%;
+  margin : 100px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.team-img {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.dev-img {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.pengenal {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 50%;
+  margin : 40px auto 60px;
+}
+
+.cr {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 10px 0;
+
+}
